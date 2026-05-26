@@ -1,0 +1,79 @@
+Sistema Inteligente de Iluminação Residencial Utilizando Arduino e Arquitetura ARM
+Resumo
+
+O crescimento da automação residencial tem impulsionado o desenvolvimento de sistemas embarcados inteligentes, capazes de operar de forma autônoma, eficiente e com baixo consumo energético. Nesse contexto, a utilização de microcontroladores baseados na arquitetura ARM, aliados à plataforma Arduino, permite a implementação de soluções acessíveis e funcionais. Este artigo apresenta o desenvolvimento de um sistema inteligente de iluminação residencial, capaz de controlar automaticamente o acionamento de lâmpadas a partir de dados coletados por sensores de luminosidade e presença. A lógica de tomada de decisão é implementada em linguagem C/C++, aplicando conceitos introdutórios de Inteligência Artificial baseados em regras. A metodologia envolve pesquisa bibliográfica, desenvolvimento do algoritmo, simulação em ambiente ARM, implementação do protótipo e realização de testes. Os resultados demonstram a viabilidade da proposta e sua aplicação prática em ambientes residenciais, contribuindo para economia de energia e maior conforto ao usuário.
+
+Palavras-chave: Sistemas Embarcados; Iluminação Inteligente; Arduino; Arquitetura ARM; Automação Residencial.
+
+1. Introdução
+
+A automação residencial tem se tornado cada vez mais presente no cotidiano, proporcionando conforto, segurança e eficiência energética. Um dos principais componentes desse cenário é o sistema de iluminação, que pode ser automatizado para operar de forma inteligente conforme as condições do ambiente.
+
+Sistemas embarcados desempenham papel fundamental nesse processo, pois são responsáveis por monitorar sensores, processar dados e controlar atuadores. A arquitetura ARM destaca-se nesse contexto por oferecer baixo consumo de energia e bom desempenho, sendo amplamente utilizada em microcontroladores modernos.
+
+A plataforma Arduino, por sua vez, facilita o desenvolvimento de protótipos de sistemas embarcados devido à sua simplicidade, baixo custo e ampla documentação. Assim, este trabalho propõe o desenvolvimento de um sistema inteligente de iluminação residencial utilizando Arduino e arquitetura ARM, aplicando conceitos básicos de Inteligência Artificial para tomada de decisão automática.
+
+2. Fundamentação Teórica
+2.1 Sistemas Embarcados
+
+Sistemas embarcados são sistemas computacionais dedicados a uma função específica, integrados a dispositivos maiores. Eles operam geralmente em tempo real e possuem recursos limitados de hardware, exigindo algoritmos eficientes e bem estruturados.
+
+2.2 Arquitetura ARM
+
+A arquitetura ARM é baseada no modelo RISC (Reduced Instruction Set Computer), caracterizando-se pela eficiência energética e simplicidade do conjunto de instruções. Devido a essas características, é amplamente utilizada em dispositivos móveis, sistemas embarcados e aplicações de Internet das Coisas (IoT).
+
+2.3 Plataforma Arduino
+
+Arduino é uma plataforma de prototipagem eletrônica de código aberto que integra hardware e software. Utiliza uma linguagem baseada em C/C++ e permite o uso de sensores e atuadores de forma simples, sendo amplamente empregada em projetos educacionais e profissionais.
+
+2.4 Inteligência Artificial em Sistemas Embarcados
+
+A Inteligência Artificial em sistemas embarcados geralmente utiliza abordagens simplificadas, como sistemas baseados em regras, lógica condicional e heurísticas, adequadas às limitações de processamento e memória desses dispositivos. Essas técnicas permitem que o sistema tome decisões automáticas a partir de dados do ambiente.
+
+3. Metodologia
+
+A metodologia adotada neste trabalho foi dividida nas seguintes etapas:
+
+Levantamento bibliográfico sobre sistemas embarcados, Arduino, arquitetura ARM e Inteligência Artificial;
+Definição do escopo do sistema de iluminação residencial;
+Desenvolvimento do algoritmo de tomada de decisão em linguagem C/C++;
+Simulação do sistema em ambiente compatível com arquitetura ARM;
+Implementação do protótipo utilizando Arduino, sensores e atuadores;
+Realização de testes em ambiente controlado;
+Documentação dos resultados e organização do projeto em repositório GitHub.
+4. Desenvolvimento do Sistema
+
+O sistema inteligente de iluminação residencial foi projetado para controlar automaticamente o acionamento de lâmpadas com base em informações do ambiente.
+
+4.1 Componentes do Sistema
+Sensor LDR para medição da luminosidade;
+Sensor PIR para detecção de presença;
+Arduino como unidade de processamento;
+LED ou módulo relé como atuador;
+Algoritmo de controle em C/C++.
+4.2 Lógica de Funcionamento
+
+O algoritmo realiza leituras periódicas dos sensores e aplica regras de decisão, tais como:
+
+Se o ambiente estiver com baixa luminosidade e houver presença de pessoas, a iluminação é ligada;
+Caso contrário, a iluminação permanece desligada.
+
+Essa lógica caracteriza um sistema inteligente baseado em regras, simulando um processo simples de tomada de decisão.
+
+5. Resultados
+
+Os testes realizados demonstraram que o sistema responde adequadamente às variações de luminosidade e à detecção de presença, acionando a iluminação somente quando necessário. A simulação em ambiente ARM permitiu validar a lógica do algoritmo antes da implementação física, reduzindo falhas e otimizando o desenvolvimento.
+
+Os resultados indicam potencial de economia de energia elétrica e maior conforto para o usuário, além de demonstrar a aplicabilidade de conceitos introdutórios de Inteligência Artificial em sistemas embarcados residenciais.
+
+6. Conclusão
+
+Este artigo apresentou o desenvolvimento de um sistema inteligente de iluminação residencial utilizando Arduino e arquitetura ARM. Foi possível comprovar que a integração de sensores, atuadores e algoritmos simples de tomada de decisão permite a criação de soluções eficientes e de baixo custo para automação residencial.
+
+O projeto contribuiu para o aprendizado prático sobre sistemas embarcados, programação em C/C++, arquitetura ARM e Inteligência Artificial, atendendo aos objetivos propostos e demonstrando a viabilidade da aplicação em ambientes reais.
+
+7. Referências
+SILVA, J. L. Sistemas Embarcados: fundamentos e aplicações. São Paulo: Editora Técnica, 2020.
+TANENBAUM, A. S. Organização Estruturada de Computadores. 6. ed. São Paulo: Pearson, 2013.
+RUSSELL, S.; NORVIG, P. Inteligência Artificial. 3. ed. Rio de Janeiro: Elsevier, 2013.
+DOCUMENTAÇÃO OFICIAL ARDUINO.
